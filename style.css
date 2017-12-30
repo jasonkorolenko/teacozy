@@ -12,7 +12,7 @@ html {
   display: flex;
   position: fixed;
   height: 69px;
-  width: 100%;
+  width: 1280px;
   border-bottom: 1px solid seashell;
   justify-content: space-between;
   align-items: center;
@@ -43,6 +43,32 @@ html {
 
 .content {
   padding-top: 69px;
+  width: 100%;
+}
+
+.mission {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  height: 700px;
+  width: 1200px;
+  margin: 0px 40px;
+}
+
+.mission_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+}
+
+.mission_text h2 {
+  margin: 10px;
+}
+
+.mission_text h4 {
+  margin: 10px;
 }
 
 .featured_image {
