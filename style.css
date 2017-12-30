@@ -71,7 +71,45 @@ html {
   margin: 10px;
 }
 
+.featured {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  width: 1000px
+}
+
+.featured_text {
+  display: flex;
+  flex-direction: column;
+}
+
+.featured_text h2 {
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.featured_text h4 {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
 .featured_image {
   height: 200px;
   width: 300px;
+  margin-bottom: 10px;
+}
+
+.tea p.caption {
+  margin-top: 0px;
+}
+
+.tea_row_1 {
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.tea_row_2 {
+  display: inline-flex;
+  justify-content: space-around;
 }
