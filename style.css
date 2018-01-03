@@ -5,15 +5,17 @@ html {
   background-color: black;
   opacity: 0.9;
   text-align: center;
-  width: 1280px;
+  width: 100%;
 }
 
 .header {
   background-color: black;
   display: flex;
   position: fixed;
+  top: 0px;
+  left: 0px;
   height: 69px;
-  width: 1280px;
+  width: 100%;
   border-bottom: 1px solid seashell;
   justify-content: space-between;
   align-items: center;
@@ -48,7 +50,7 @@ html {
 }
 
 .mission {
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   flex-direction: column;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
@@ -114,19 +116,22 @@ html {
 .tea_row_2 {
   display: inline-flex;
   justify-content: space-around;
-  margin: 0px 150px;
+  margin: 30px 150px;
 }
 
 .locations {
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   flex-direction: column;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
   height: 500px;
   width: 1200px;
-  margin-top: 50px;
-  margin-left: 40px;
-  margin-right: 40px;
+  padding-top: 70px;
+}
+
+.locations h2 {
+  margin-bottom: 15px;
+  margin-top: 0px;
 }
 
 .title {
@@ -134,37 +139,41 @@ html {
 
 .addresses {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  margin: 0px 100px 140px 100px;
 }
 
 .downtown {
   display: flex;
   flex-direction: column;
+  justify-content: flex-end;
   align-items: center;
   background-color: black;
   opacity: 1;
-  height: 300px;
+  height: 280px;
   width: 300px;
 }
 
 .east_bayside {
   display: flex;
   flex-direction: column;
+  justify-content: flex-end;
   align-items: center;
   background-color: black;
   opacity: 1;
-  height: 300px;
+  height: 280px;
   width: 300px;
 }
 
 .oakdale {
   display: flex;
   flex-direction: column;
+  justify-content: flex-end;
   align-items: center;
   background-color: black;
   opacity: 1;
-  height: 300px;
+  height: 280px;
   width: 300px;
 }
 
@@ -172,12 +181,12 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  width: 1280px;
+  width: 100%;
   height: 200px;
 }
 
 .footer {
-  width: 1280px;
+  width: 100%;
 }
 
 h5 {
